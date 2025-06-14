@@ -15,7 +15,7 @@ struct IgniteWebsite {
 }
 
 struct CrazyMonkeyTwinCities: Site {    
-    var name = "Crazy Monkey Twin Citiest"
+    var name = "Crazy Monkey Twin Cities"
     var url = URL(static: "https://www.crazymonkeytwincities.com")
     var builtInIconsEnabled = true
 

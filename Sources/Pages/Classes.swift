@@ -50,6 +50,12 @@ struct Classes: StaticLayout {
                 
                 Table {
                     Row {
+                        "Wednesday"
+                        "6pm"
+                        "Monkey Jits (Adult 18+)"
+                    }
+                    
+                    Row {
                         "Thursday"
                         "5pm"
                         "Monkey Jits (Teen 14+)"
@@ -58,12 +64,6 @@ struct Classes: StaticLayout {
                     Row {
                         "Thursday"
                         "6pm"
-                        "Monkey Jits (Adult 18+)"
-                    }
-                    
-                    Row {
-                        "Sunday"
-                        "10am"
                         "Monkey Jits (Adult 18+)"
                     }
                     
