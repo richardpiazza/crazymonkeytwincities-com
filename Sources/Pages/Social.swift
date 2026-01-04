@@ -1,7 +1,7 @@
 import Foundation
 import Ignite
 
-struct Social: StaticLayout {
+struct Social: StaticPage {
     var title = "Social"
     
     var body: some HTML {

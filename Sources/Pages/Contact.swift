@@ -1,7 +1,7 @@
 import Foundation
 import Ignite
 
-struct Contact: StaticLayout {
+struct Contact: StaticPage {
     var title = "Contact"
     
     var body: some HTML {

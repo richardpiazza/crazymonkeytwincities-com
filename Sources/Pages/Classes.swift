@@ -1,7 +1,7 @@
 import Foundation
 import Ignite
 
-struct Classes: StaticLayout {
+struct Classes: StaticPage {
     var title = "Classes"
     
     var body: some HTML {

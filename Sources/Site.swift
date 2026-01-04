@@ -4,7 +4,7 @@ import Ignite
 @main
 struct IgniteWebsite {
     static func main() async {
-        let site = CrazyMonkeyTwinCities()
+        var site = CrazyMonkeyTwinCities()
 
         do {
             try await site.publish()
@@ -25,9 +25,9 @@ struct CrazyMonkeyTwinCities: Site {
     var homePage = Home()
     var layout = MainLayout()
     
-    var staticLayouts: [any StaticLayout] = [
+    var staticPages: [any StaticPage] = [
         Classes(),
         Social(),
-        Contact()
+        Contact(),
     ]
 }
