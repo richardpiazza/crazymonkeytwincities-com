@@ -57,12 +57,6 @@ struct Classes: StaticLayout {
                     
                     Row {
                         "Thursday"
-                        "5pm"
-                        "Monkey Jits (Teen 14+)"
-                    }
-                    
-                    Row {
-                        "Thursday"
                         "6pm"
                         "Monkey Jits (Adult 18+)"
                     }

@@ -26,10 +26,10 @@ struct Home: StaticLayout {
                     .font(.title3)
                     .fontWeight(.bold)
                     
-                Text("Crazy Monkey Defense is disrupting the modern martial art industry through challenging the status quo. We are the counter-culture movement to a martial art world which finds itself exclusively focused on hyper-competitiveness or reality based self-defence paranoia.")
+                Text("Crazy Monkey Defense is disrupting the modern martial art industry through challenging the status quo. We are the counter-culture movement to a martial art world which finds itself exclusively focused on hyper-competitiveness or reality based self-defense paranoia.")
                     .font(.body)
                 
-                Text("What makes us different to our competitors is the belief that simply focusing on competing or self-defence has a limited longterm benefit to a person’s life. The vast majority of people will never compete, and a limited amount of people will ever be called upon to actually defend themselves.")
+                Text("What makes us different to our competitors is the belief that simply focusing on competing or self-defense has a limited longterm benefit to a person’s life. The vast majority of people will never compete, and a limited amount of people will ever be called upon to actually defend themselves.")
                     .font(.body)
                 
                 Text("We believe it makes far more sense to ensure that what we coach our clients on the mat, will help them off the mat in every aspect of their life. Not just today, but for years to come. This way we add real value to our clients lives, by teaching them a skill set that will enable them to take on the martial arts of everyday life and win.")
