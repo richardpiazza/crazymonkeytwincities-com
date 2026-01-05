@@ -50,13 +50,7 @@ struct Classes: StaticPage {
                 
                 Table {
                     Row {
-                        "Wednesday"
-                        "6pm"
-                        "Monkey Jits (Adult 18+)"
-                    }
-                    
-                    Row {
-                        "Thursday"
+                        "Tuesday"
                         "6pm"
                         "Monkey Jits (Adult 18+)"
                     }
