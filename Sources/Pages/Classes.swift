@@ -52,7 +52,13 @@ struct Classes: StaticPage {
                     Row {
                         "Tuesday"
                         "6pm"
-                        "Monkey Jits (Adult 18+)"
+                        "Monkey Jits (Adults/Group A)"
+                    }
+                    
+                    Row {
+                        "Wednesday"
+                        "6pm"
+                        "Monkey Jits (Adults/Group B)"
                     }
                     
                     Row {
