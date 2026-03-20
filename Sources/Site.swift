@@ -22,12 +22,10 @@ struct CrazyMonkeyTwinCities: Site {
     var author = "Crazy Monkey Twin Cities"
     var titleSuffix = " - Crazy Monkey Twin Cities"
 
+    var lightTheme: (any Theme)? = MainTheme(colorScheme: .dark)
+    var darkTheme: (any Theme)? = MainTheme(colorScheme: .dark)
+    
     var homePage = Home()
     var layout = MainLayout()
-    
-    var staticPages: [any StaticPage] = [
-        Classes(),
-        Social(),
-        Contact(),
-    ]
+    var staticPages: [any StaticPage] = []
 }

@@ -6,7 +6,6 @@ struct MainLayout: Layout {
         Body {
             Navigation()
             content
-            Footer()
         }
     }
 }

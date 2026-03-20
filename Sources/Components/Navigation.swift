@@ -2,17 +2,18 @@ import Foundation
 import Ignite
 
 struct Navigation: HTML {
+    
+    @Environment(\.themes) private var themes
+    
     var body: some HTML {
         NavigationBar {
-            Link("Classes", target: Classes())
-//            Link("Social", target: Social())
-            Link("Contact", target: Contact())
+            Link("About", target: "#about")
+            Link("Schedule", target: "#schedule")
+            Link("Contact", target: "#contact")
         } logo: {
-            Image(decorative: "/images/logo-black.png")
-                .resizable()
-                .frame(width: .px(75))
         }
-        .navigationItemAlignment(.trailing)
-        .position(.stickyTop)
+        .navigationItemAlignment(.center)
+        .background(themes.first!.background)
+        .position(.fixedTop)
     }
 }

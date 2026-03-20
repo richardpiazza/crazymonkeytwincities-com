@@ -4,14 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "IgniteStarter",
+    name: "CrazyMonkeyTwinCities",
     platforms: [.macOS(.v13)],
     dependencies: [
-        .package(url: "https://github.com/twostraws/Ignite.git", branch: "main")
+        .package(url: "https://github.com/twostraws/Ignite.git", exact: "0.6.4")
     ],
     targets: [
         .executableTarget(
-            name: "IgniteStarter",
-            dependencies: ["Ignite"]),
+            name: "CrazyMonkeyTwinCities",
+            dependencies: [
+                .product(name: "Ignite", package: "Ignite"),
+            ]
+        ),
     ]
 )
