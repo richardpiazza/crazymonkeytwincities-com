@@ -63,7 +63,7 @@ struct Home: StaticPage {
         }
         .background(image: "/images/slap-bump-roll.jpg", contentMode: .fill)
         
-        Grid {
+        Grid(alignment: .top) {
             VStack {
                 Text("Schedule")
                     .font(.title5)
@@ -74,13 +74,7 @@ struct Home: StaticPage {
                     Row {
                         "Tuesday"
                         "6pm"
-                        "Monkey Jits (Adults/Group A)"
-                    }
-                    
-                    Row {
-                        "Wednesday"
-                        "6pm"
-                        "Monkey Jits (Adults/Group B)"
+                        "Monkey Jits (16+)"
                     }
                     
                     Row {
@@ -157,11 +151,30 @@ struct Home: StaticPage {
                 Text("Robbinsdale, MN 55422")
             }
             
-            Text("For more information about Crazy Monkey/Monkey Jits, or to schedule an intro session…")
+            Text("For more information about Crazy Monkey/Monkey Jits, or to schedule an intro session, contact Richard…")
             
-            Link("Click Here/Contact Richard", target: "mailto:richard@crazymonkeytwincities.com")
-                .linkStyle(.button)
-                .role(.primary)
+            Form {
+                TextField("Name", prompt: "first/last")
+                    .type(.text)
+                    .customAttribute(name: "name", value: "name")
+                    .width(6)
+                
+                TextField("Email", prompt: "email@example.com")
+                    .type(.email)
+                    .customAttribute(name: "name", value: "email")
+                    .width(6)
+                
+                TextField("Message", prompt: "")
+                    .type(.text)
+                    .customAttribute(name: "name", value: "message")
+                    .width(12)
+                
+                Button("Submit")
+                    .type(.submit)
+                    .role(.primary)
+            }
+            .attribute("action", "https://formspree.io/f/mvzwydwq")
+            .attribute("method", "POST")
         }
         .id("contact")
         .padding(.bottom)
