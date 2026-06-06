@@ -82,6 +82,17 @@ struct Home: StaticPage {
                         "10am"
                         "Open Mats (Students Only)"
                     }
+                    
+                    Row {
+                        Column {
+                            Text {
+                                Emphasis {
+                                    "Schedule is flexible and changes throughout the year as the needs of students changes."
+                                }
+                            }
+                        }
+                        .columnSpan(3)
+                    }
                 } header: {
                     "Weekday"
                     "Time"
@@ -214,5 +225,8 @@ struct Home: StaticPage {
                 .width(3)
         }
         .padding(.bottom, 100)
+        
+        Include("Mastodon.html")
+        Include("TelemetryDeck.html")
     }
 }
