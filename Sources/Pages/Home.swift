@@ -72,7 +72,7 @@ struct Home: StaticPage {
                 
                 Table {
                     Row {
-                        "Tuesday"
+                        "Monday"
                         "6pm"
                         "Monkey Jits (16+)"
                     }
